@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dwip</title>
+	<!-- icon link -->
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<!-- css links -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="container text-center">
+		<h1 class="text-danger">Click the button to change the text</h1>
+		<button type="button" class="btn btn-warning text-danger" onclick="textChange()">text Change </button>
+		<h2 id="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+
+		<hr>
+		
+		<h1 class="text-danger"> Click the button to show the date</h1>
+		<button type="button" class="btn btn-info text-danger" onclick="showDate()">Show Date</button>
+		<h2 id="d_h2">Date</h2>
+
+		<hr>
+
+		<h1 class="text-danger">click the button to on/off the bulb</h1>
+		<button onclick="bulbOn()" type="button" class="btn btn-warning">Bulb on</button>
+		<button onclick="bulbOff()" type="button" class="btn btn-success">Bulb off</button>
+		<img id="img" src="images/off.gif">
+
+		<hr>
+
+		<h1 class="text-danger">Click the button to change of font color</h1>
+		<button onclick="fontColor()" type="button" class="btn btn-dark">Font Color Change</button>
+		<h2 id="fc_h2">Nemo ipsam excepturi numquam vel.</h2>
+
+		<hr>
+
+		<h1 class="text-danger">Click the button to change of font size</h1>
+		<button onclick="fontChange()" type="button" class="btn btn-dark">Font Change</button>
+		<h2 id="f_h2">Nemo ipsam excepturi numquam vel.</h2>
+
+		<hr>
+
+		<h1 class="text-danger">Click the button to show the text with window alert</h1>
+		<button onclick="windowAlert()" type="button" class="btn btn-warning">Alert</button>
+
+		<hr>
+
+		<h1 class="text-danger">Click the button to show/hide the text</h1>
+		<button onclick="show()" type="button" class="btn btn-warning">Show</button>
+		<button onclick="hide()" type="button" class="btn btn-info">Hide</button>
+		<h2 id="sh_h2">Nemo ipsam excepturi numquam vel.</h2>
+
+		<hr>
+
+		<h1 class="text-danger">Click the button to show the text with new page</h1>
+		<button onclick="resultOut()" type="button" class="btn btn-warning">D.Write</button>
+
+		<hr>
+
+		<h1 class="text-danger">Click the button to show the console.log</h1>
+		<button onclick="cLog()" type="button" class="btn btn-warning">C.log</button>
+
+
+	</div>
+
+	<!-- script links -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
